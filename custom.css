@@ -1,3 +1,14 @@
+
+ 
+ html, body , .tab-content, .container , #home{
+       height:100%;
+    
+ }
+ 
  #home {
-            background-image: url("img/HABgif.gif");
-        }
+     background: url("img/HABgif.gif") center ;
+     background-size:cover;
+     height:100%;
+     
+    }
+ 
