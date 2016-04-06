@@ -19,45 +19,54 @@
     <link rel="stylesheet" href="nav.css">
     <script src="script.js"></script>
 
-    <style>
-        .navbar {
-            background-color: orange;
-            position: fixed;
-            top: 15px;
-        }
-        
-        #home {
-            background-image: url("HABgif.gif");
-        }
-    </style>
+
+
+
+
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top">
- 
-    
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#home">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#learnMore">Learn More</a></li>
-            <li><a href="#Gallery_Testimonials">Gallery and Testimonials</a></li>
-            <li><a href="#contactUs">Contact Us</a></li>
+
+
+    <ul class="nav nav-pills">
+        <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+        <li><a data-toggle="pill" href="#learnMore">Learn More</a></li>
+        <li><a data-toggle="pill" href="#Gallery_Testimonials">Gallery and Testimonials</a></li>
+        <li><a data-toggle="pill" href="#contactUs">Contact Us</a></li>
     </ul>
-  
-</nav>
-        
-        <div id="home">
-            <P> Fun for Everyone Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.</P>
+
+
+    <div class=tab-content>
+
+        <div id="home" class="tab-pane active">
+            <div class="container">
+                <p>Home</p>
+            </div>
         </div>
 
-        <div id="learnMore"></div>
-        <div id="Gallery_Testimonials"></div>
-        <div id="contactUs"></div>
+
+
+        <div id="learnMore" class="tab-pane">
+            <div class="container">
+                <p>Learn More</p>
+
+            </div>
+        </div>
+
+        <div id="Gallery_Testimonials" class="tab-pane">
+            <div class="container">
+                <p>Gallery and Testimonials</p>
+            </div>
+        </div>
+
+
+        <div id="contactUs" class="tab-pane">
+            <div class="container">
+                <p>Contact Us</p>
+            </div>
+        </div>
+    </div>
 
 </body>
 
 </html>
-
-
