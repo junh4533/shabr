@@ -1,14 +1,46 @@
 
+/*allows the background to be full size*/
+html,
+body,
+.tab-content,
+.container,
+.tab-pane {
+ height: 100%;
+ color: #C1926C;
+}
+
+
+#home {
+ background: url("img/HABgif.gif") center;
+ background-size: cover;
+/*puts a dark blue tint on the background*/
+ background-color: rgba(0, 25, 75, .7);
+background-blend-mode: multiply;
+}
+
+
+.tab-pane {
+ padding-top: 50px;
+ background: linear-gradient(to bottom right, #005AB4, white);
+}
+
+#carousel {
+width: 75%;
+left:12.5%;
+top:5%;
+}
+
+.carousel-caption {
+ color:white;
+}
+
+.carousel-indicators li{
+ background-color:#A3C6EE;
  
- html, body , .tab-content, .container , #home{
-       height:100%;
-    
- }
- 
- #home {
-     background: url("img/HABgif.gif") center ;
-     background-size:cover;
-     height:100%;
-     
-    }
- 
+}
+
+h1{
+ font-size:100px;
+ text-align:center;
+}
+
