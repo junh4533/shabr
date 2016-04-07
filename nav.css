@@ -1,5 +1,13 @@
-.nav {
-            background-color: orange;
-            
-            }
-        
+.nav{
+    
+     border-width:50px;
+  
+      position:absolute;
+           display: inline-block;
+
+}
+
+.navTabs{
+    color:#979436;
+}
+
