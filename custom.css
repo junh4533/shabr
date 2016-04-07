@@ -1,4 +1,5 @@
 /*allows the background to be full size*/
+
 html,
 body,
 .tab-content,
@@ -8,15 +9,13 @@ body,
  color: #C1926C;
 }
 
-
 #home {
  background: url("img/HABgif.gif") center;
  background-size: cover;
-/*puts a dark blue tint on the background*/
+ /*puts a dark blue tint on the background*/
  background-color: rgba(0, 25, 75, .7);
-background-blend-mode: multiply;
+ background-blend-mode: multiply;
 }
-
 
 .tab-pane {
  padding-top: 50px;
@@ -24,23 +23,24 @@ background-blend-mode: multiply;
 }
 
 #carousel {
-width: 75%;
-left:12.5%;
-top:5%;
+ width: 75%;
+ left: 12.5%;
+ top: 5%;
 }
 
 .carousel-caption {
- color:white;
+ color: white;
 }
 
-.carousel-indicators li{
- background-color:#A3C6EE;
- 
+.carousel-indicators li {
+ background-color: #A3C6EE;
 }
 
-h1{
- font-size:100px;
- text-align:center;
+h1 {
+ font-size: 100px;
+ text-align: center;
 }
 
-
+button {
+ position: absolute;
+}

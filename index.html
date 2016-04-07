@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Title</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -23,12 +23,22 @@
 <body>
 
 
+    
+     <div id="navBar">
     <ul class="nav nav-pills">
-        <li class="active"><a class="navTabs" data-toggle="pill" href="#home">Home</a></li>
+            
+<li class="active"><a class="navTabs" data-toggle="pill" href="#home">Home</a></li>
         <li><a class="navTabs" data-toggle="pill" href="#learnMore">Learn More</a></li>
         <li><a class="navTabs" data-toggle="pill" href="#Gallery_Testimonials">Gallery and Testimonials</a></li>
         <li><a class="navTabs" data-toggle="pill" href="#contactUs">Contact Us</a></li>
     </ul>
+    </div>
+    
+    <button type="button" data-toggle="collapse" data-target="#navBar" >
+        <span class="glyphicon glyphicon-align-justify"></span>
+</button>
+    
+    
 
 
     <div class=tab-content>
@@ -138,7 +148,7 @@
                 <br>
                 <br>
 
-
+<div id="wells">
                 <div class="well">"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!"
                     <br>-- Joan H.</div>
                 <div class="well">"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR."
@@ -151,7 +161,7 @@
                     <br>-- Ethel E.</div>
                 <div class="well">"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!"
                     <br>-- Mary C.</div>
-
+</div>
 
             </div>
         </div>
