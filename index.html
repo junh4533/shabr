@@ -160,16 +160,27 @@
 
         <div id="contactUs" class="tab-pane">
             <div class="container">
-                <p>We’d love to hear from you </p>
-                <P>
-                    Address
-                    <br> SHABR, Inc.
-                    <br> 1234 Shabr Road
-                    <br> Somewhere, OT 80013
-                    <br> Phone(555) 555-1234
-                    <br> Copyright © 2016 | SHABR
-                </P>
-            </div>
+                <div class ='row'>
+                    <div class='col-sm-5'>
+                        <p>We’d love to hear from you </p>
+                        <P>
+                            Address
+                            <br> SHABR, Inc.
+                            <br> 1234 Shabr Road
+                            <br> <span class="glyphicon glyphicon-map-marker"></span> Somewhere, OT 80013
+                            <br> <span class="glyphicon glyphicon-earphone"></span> Phone(555) 555-1234
+                        </P>
+                    </div>    
+                    <div class='col-sm-offset-5'>
+                          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                          <br><input class="form-control" id="email" name="email" placeholder="Email" type="text" required>
+                          <br><textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                          <br><button type="button" class="btn btn-default">Send</button>
+                          
+                    </div>
+                </div>
+            </div>  
+            <div class='footer text-center'><p>Copyright © 2016 | SHABR</p></div>
         </div>
     </div>
 
