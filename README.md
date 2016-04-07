@@ -3,7 +3,7 @@
 _The purpose of this repository is to help you practice using Bootstrap components._
 
 ## Context
-* Your college roommate is not only a hot air balloon enthusiast, but they just got their pilot's license and is ready to start a business!  
+* Your college roommatep is not only a hot air balloon enthusiast, but they just got their pilot's license and is ready to start a business!  
 * Of course, your roommate needs a website built, so obviously, they turn to you! Your roommate has agreed to give you 10% of the profits during the first 2 years of business! It is in your best interest to make this website look as good as possible!
 * Your roommate has given you the content, so all you have to do is put your Bootstrap skills to the test!
 
