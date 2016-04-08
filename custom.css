@@ -3,14 +3,17 @@
 html,
 body,
 .tab-content,
-.container,
-.tab-pane{
+.container{
  height: 100%;
- color: #C1926C;
+color: #C1926C;
+}
+
+.tab-pane{
+ min-height:100%;
 }
 
 #home {
- background: url("img/HABgif.gif") center;
+ background: url("img/HABgif.gif") center ;
  background-size: cover;
  /*puts a dark blue tint on the background*/
  background-color: rgba(0, 25, 75, .7);
@@ -42,9 +45,8 @@ h1 {
  text-align: center;
 }
 
-#homeText{
- position: relative;
- top:20%;
+.col-xs-6{
+ left:25%;
 }
 
 #navButton {
