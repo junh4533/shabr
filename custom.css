@@ -4,7 +4,7 @@ html,
 body,
 .tab-content,
 .container,
-.tab-pane {
+.tab-pane{
  height: 100%;
  color: #C1926C;
 }
