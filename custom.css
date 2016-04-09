@@ -3,33 +3,64 @@
 html,
 body,
 .tab-content,
-.container{
+.container {
  height: 100%;
-color: #C1926C;
+ color: #C1926C;
 }
 
-.tab-pane{
- min-height:100%;
+.tab-pane {
+ min-height: 100%;
 }
+
+
+/*Homepage CSS*/
 
 #home {
- background: url("img/HABgif.gif") center ;
+ background: url("img/HABgif.gif") center;
  background-size: cover;
  /*puts a dark blue tint on the background*/
  background-color: rgba(0, 25, 75, .7);
  background-blend-mode: multiply;
 }
 
+
+/*Padding between content and Navbar*/
+
 .tab-pane {
- padding-top: 50px;
+ padding-top: 15%;
  background: linear-gradient(to bottom right, #005AB4, white);
 }
 
+@media only screen and (max-width: 523px) {
+ .tab-pane {
+  padding-top: 20%;
+ }
+ #contactUs {
+  padding-top: 25%;
+ }
+ #Gallery_Testimonials {
+  padding-top: 25%;
+ }
+}
+
+@media only screen and (max-width: 333px) {
+ .tab-pane {
+  padding-top: 35%;
+ }
+ #contactUs {
+  padding-top: 45%;
+ }
+ #Gallery_Testimonials {
+  padding-top: 45%;
+ }
+}
+
+
+/*Carousel CSS*/
+
 #carousel {
- width: 75%;
- left: 12.5%;
- top: 5%;
- 
+ width: 90%;
+ left: 5%;
 }
 
 .carousel-caption {
@@ -40,17 +71,152 @@ color: #C1926C;
  background-color: #A3C6EE;
 }
 
+
+/*Centers the homepage text*/
+
+.col-xs-6 {
+ left: 25%;
+}
+
 h1 {
  font-size: 100px;
  text-align: center;
 }
 
-.col-xs-6{
- left:25%;
+#homeText {
+ text-align: center;
 }
 
-#navButton {
- position: absolute;
- right:0px;
+
+/*Centers the address*/
+
+.col-sm-4 {
+ text-align: center;
+ font-size:15px;
 }
 
+
+/*animation for Shabr text*/
+
+#skyDance {
+ animation-name: fade1;
+ animation-duration: 2s;
+ opacity: 0;
+ animation-fill-mode: forwards;
+}
+
+#hot {
+ animation-name: fade2;
+ animation-duration: 2s;
+ animation-delay: 1s;
+ opacity: 0;
+ animation-fill-mode: forwards;
+}
+
+#air {
+ animation-name: fade3;
+ animation-duration: 2s;
+ animation-delay: 2s;
+ opacity: 0;
+ animation-fill-mode: forwards;
+}
+
+#balloon {
+ animation-name: fade4;
+ animation-duration: 2s;
+ animation-delay: 3s;
+ opacity: 0;
+ animation-fill-mode: forwards;
+}
+
+#rides {
+ animation-name: fade5;
+ animation-duration: 2s;
+ animation-delay: 4s;
+ opacity: 0;
+ animation-fill-mode: forwards;
+}
+
+@keyframes fade1 {
+ from {
+  opacity: 0;
+ }
+ to {
+  opacity: 1;
+ }
+}
+
+@keyframes fade2 {
+ from {
+  opacity: 0;
+ }
+ to {
+  opacity: 1;
+ }
+}
+
+@keyframes fade3 {
+ from {
+  opacity: 0;
+ }
+ to {
+  opacity: 1;
+ }
+}
+
+@keyframes fade4 {
+ from {
+  opacity: 0;
+ }
+ to {
+  opacity: 1;
+ }
+}
+
+@keyframes fade5 {
+ from {
+  opacity: 0;
+ }
+ to {
+  opacity: 1;
+ }
+}
+
+
+/*Shabr text responsive design*/
+
+.shabr {
+ display: inline;
+ font-size: 30px;
+ color: #979436;
+}
+
+@media only screen and (max-width: 439px) {
+ .shabr {
+  font-size: 25px;
+ }
+}
+
+@media only screen and (max-width: 373px) {
+ .shabr {
+  font-size: 20px;
+ }
+}
+
+/*Learn More backgrounds*/
+
+#weather{
+ background: url("https://d3rnbxvnd0hlox.cloudfront.net/images/channels/7/icons/large.png") center no-repeat;
+}
+
+#participation{
+ background: url("https://d3rnbxvnd0hlox.cloudfront.net/images/channels/7/icons/large.png") center no-repeat;
+}
+
+#time{
+ background: url("https://d3rnbxvnd0hlox.cloudfront.net/images/channels/7/icons/large.png") center no-repeat;
+}
+
+#flight{
+ background: url("https://d3rnbxvnd0hlox.cloudfront.net/images/channels/7/icons/large.png") center no-repeat;
+}
