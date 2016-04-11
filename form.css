@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: url("img/balloon-1.jpg") center;
+    background-size: cover;
+}
+
+div {
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    color: #721125;
+}

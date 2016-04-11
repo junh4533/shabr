@@ -53,7 +53,34 @@ body,
     #Gallery_Testimonials {
         padding-top: 45%;
     }
+
 }
+
+@media only screen and (min-width: 800px) {
+    #learnMore{
+        padding-top: 5%;
+    }
+    #Gallery_Testimonials{
+        padding-top: 12%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    #Gallery_Testimonials{
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 560px) {
+    
+    #contactUs{
+        padding-top: 5%;
+    }
+
+}
+
+
 
 
 /*Carousel CSS*/
@@ -63,6 +90,10 @@ body,
     left: 5%;
 }
 
+
+.carousel-caption {
+    color: white;
+}
 
 .carousel-indicators li {
     background-color: #A3C6EE;
@@ -316,6 +347,29 @@ h1 {
     text-align: center;
 }
 
+
+    color: #800000;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #FFFFFF;
+}
+
+
+/*form button positioning*/
+
+.btn {
+    position: relative;
+    left: 45%;
+}
+
+
+/*form text positioning*/
+
+.jumbotron {
+    text-align: center;
+}
+
+
 #address {
     top: 40px;
     font-size: 20px;
@@ -326,7 +380,17 @@ h1 {
     #address {
         top: 0;
     }
+
 }
+
+@media only screen and (max-width: 400px) {
+    #contact {
+        font-size: 90px;
+    }
+}
+
+
+
 
 @media only screen and (max-width: 400px) {
     #contact {
