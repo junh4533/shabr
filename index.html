@@ -24,74 +24,128 @@
     <link rel="stylesheet" href="nav.css">
 
     <script src="script.js"></script>
-
+    <!--font-->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-
-
-
+    <!--Navbar-->
     <div id="navBar">
-        <ul class="nav nav-pills ">
+        <ul class="nav nav-pills text-center">
 
             <li class="active"><a class="navTabs" data-toggle="pill" href="#home">Home</a></li>
             <li><a class="navTabs" data-toggle="pill" href="#learnMore">Learn More</a></li>
             <li><a class="navTabs" data-toggle="pill" href="#Gallery_Testimonials">Gallery and Testimonials</a></li>
             <li><a class="navTabs" data-toggle="pill" href="#contactUs">Contact Us</a></li>
+
         </ul>
     </div>
-
-    <button id="navButton" type="button" data-toggle="collapse" data-target="#navBar">
-        <span class="glyphicon glyphicon-align-justify"></span>
-    </button>
-
+    <!--End of Navbar-->
 
 
     <div class=tab-content>
 
+        <!--Home Tab-->
         <div id="home" class="tab-pane active" class="container">
-            <div id="homeText" >
-                <h1>Shabr</h1>
-                <div class='row'>
+            <div id="homeText">
+                <h1>SHABR</h1>
+
+                <!--<div class='row'>-->
                             
+                <!--        <p>Fun for Everyone Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.</p>-->
+                <!--</div>    -->
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="shabr" id="skyDance">Skydance</p> &nbsp;
+                        <p class="shabr" id="hot">Hot</p> &nbsp;
+                        <p class="shabr" id="air">Air</p> &nbsp;
+                        <p class="shabr" id="balloon">Balloon</p> &nbsp;
+                        <p class="shabr" id="rides">Rides</p>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
                         <p>Fun for Everyone Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.</p>
-                </div>    
+                    </div>
+                </div>
+
             </div>
         </div>
 
 
-
+        <!--Learn More Tab-->
         <div id="learnMore" class="tab-pane">
             <div class="container">
 
+                <!--First Row, time-->
                 <div class='row'>
-                    <div class="col-sm-6 col-md-3">
-                        <h2> Time</h2>
-                        <p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests
-                            to call ahead for the exact meeting time.</p>
+                    <div class="col-sm-6 col-md-6 col-lg-12">
+                        <div class="panel panel-default">
+                            <div id="time" class="panel-body">
+                                <div class="panel-heading">
+                                    <h1 class="panel-title">Time</h1>
+                                </div>
+                                <p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our
+                                    guests to call ahead for the exact meeting time.</p>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-md-3 col-md-offset-4">
-                        <h2>Weather</h2>
-                        <p>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions
-                            will allow their balloon flight.</p>
+
+                    <!--First Row, weather-->
+                    <div class="col-sm-6 col-md-6 col-lg-12">
+                        <div class="panel panel-default">
+                            <div id="weather" class="panel-body">
+                                <div class="panel-heading">
+                                    <h1 class="panel-title">Weather</h1>
+                                </div>
+                                <p>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather
+                                    conditions will allow their balloon flight.</p>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
 
+                <!--Second Row, flight-->
                 <div class='row'>
-                    <div class="col-sm-6 col-md-3">
-                        <h2>Flight</h2>
-                        <p> Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+                    <div class="col-sm-6 col-md-6 col-lg-12">
+                        <div class="panel panel-default">
+                            <div id="flight" class="panel-body">
+                                <div class="panel-heading">
+                                    <h1 class="panel-title">Flight</h1>
+                                </div>
+
+                                <p> Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-md-3 col-md-offset-4">
-                        <h2>Participation</h2>
-                        <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+
+                    <!--Second row, participation-->
+                    <div class="col-sm-6 col-md-6 col-lg-12">
+                        <div class="panel panel-default">
+                            <div id="participation" class="panel-body">
+                                <div class="panel-heading">
+                                    <h1 class="panel-title">Participation</h1>
+                                </div>
+                                <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-
 
             </div>
         </div>
 
+        <!--Gallery_Testimonials Tab-->
 
         <div id="Gallery_Testimonials" class="tab-pane">
             <div class="container">
@@ -99,7 +153,6 @@
                 <!--carousel-->
 
                 <div id="carousel" class="carousel slide" data-ride="carousel">
-
 
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -114,49 +167,49 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <img src="img/balloon-1.jpg" alt="1">
+
                             <div class="carousel-caption">
                                 <h3>Somewhere, OT 80013</h3>
                                 <p>1234 Shabr Road</p>
                             </div>
+
+
+
                         </div>
 
                         <div class="item">
                             <img src="img/balloon-2.jpg" alt="2">
                             <div class="carousel-caption">
-                                <h3>Preparing for lift off</h3>
-                                <p></p>
+                                <p>"Come on down and soar to great heights and in no time you'll be seing great sights."</p>
                             </div>
                         </div>
 
                         <div class="item">
                             <img src="img/balloon-3.jpg" alt="3">
                              <div class="carousel-caption">
-                                <h3>Ready for lift off</h3>
-                                <p></p>
+                                <p>"Oh! The places you'll go".</p>
                             </div>
                         </div>
 
                         <div class="item">
                             <img src="img/balloon-4.jpg" alt="4">
                              <div class="carousel-caption">
-                                <h3></h3>
-                                <p></p>
+                                <p>"Your adventure awaits, so get on your way".</p>
                             </div>
                         </div>
 
                         <div class="item">
                             <img src="img/balloon-5.jpg" alt="5">
                             <div class="carousel-caption">
-                                <h3>Enjoying the View</h3>
-                                <p></p>
+                                <h2>Enjoying the View</h2>
+                                <p>"It is amazing what a bit if sky can do."</p>
                             </div>
                         </div>
 
                         <div class="item">
                             <img src="img/balloon-6.jpg" alt="6">
                             <div class="carousel-caption">
-                                <h3></h3>
-                                <p></p>
+                                <p>"Once you have tasted flight you will forever walk the earth looking skyward."</p>
                             </div>
                         </div>
                     </div>
@@ -171,8 +224,8 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-
                 <!--End of carousel-->
+
                 <br>
                 <br>
 
@@ -195,7 +248,7 @@
         </div>
 
 
-
+        <!--Contact Us Tab-->
         <div id="contactUs" class="tab-pane">
 
             <div class=" text-center" >
@@ -205,18 +258,28 @@
                 <div class ='row'>
 
             <div class="container">
+                
                 <div class='row'>
+
 
                     <div class='col-sm-5'>
                         <h3>We’d love to hear from you </h3>
                         <p>
+
+                    
+                    <div id="address" class='col-sm-5'>
+                        <div class="jumbotron">
+                        <P>
+                            Address
+
                             <br> SHABR, Inc.
                             <br> 1234 Shabr Road
                             <br> <span class="glyphicon glyphicon-map-marker"></span> Somewhere, OT 80013
                             <br> <span class="glyphicon glyphicon-earphone"></span> Phone(555) 555-1234
+
                             <strong><p>Copyright © 2016 | SHABR</p></strong>
 
-                        </p>
+                        </P>
                     </div>    
                         <div class='col-sm-6'>
                               <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -227,6 +290,30 @@
                         </div>
                     </div>
                 </div>  
+
+                        
+                        
+                    </div>
+                    <!--<div class='col-sm-offset-5'>-->
+                    <!--    <div class="jumbotron">-->
+                    <!--        <p>We’d love to hear from you </p>-->
+                    <!--    <form action="form.html" method="get">-->
+                    <!--        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>-->
+                    <!--        <br>-->
+                    <!--        <input class="form-control" id="email" name="email" placeholder="Email" type="text" required>-->
+                    <!--        <br>-->
+                    <!--        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>-->
+                    <!--        <br>-->
+                    <!--        <br>-->
+                    <!--        <button type="submit" class="btn btn-default">Send</button>-->
+                    <!--    </form>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                </div>
+                <!--<div class='footer text-center'>-->
+                <!--    <p>Copyright © 2016 | SHABR</p>-->
+                <!--</div>-->
+
             </div>
 
         </div>
