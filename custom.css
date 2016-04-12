@@ -53,34 +53,28 @@ body,
     #Gallery_Testimonials {
         padding-top: 45%;
     }
-
 }
 
 @media only screen and (min-width: 800px) {
-    #learnMore{
+    #learnMore {
         padding-top: 5%;
     }
-    #Gallery_Testimonials{
+    #Gallery_Testimonials {
         padding-top: 12%;
     }
 }
 
 @media only screen and (min-width: 1000px) {
-    
-    #Gallery_Testimonials{
+    #Gallery_Testimonials {
         padding-top: 5%;
     }
 }
 
 @media only screen and (min-width: 560px) {
-    
-    #contactUs{
+    #contactUs {
         padding-top: 5%;
     }
-
 }
-
-
 
 
 /*Carousel CSS*/
@@ -89,7 +83,6 @@ body,
     width: 90%;
     left: 5%;
 }
-
 
 .carousel-caption {
     color: white;
@@ -174,52 +167,37 @@ h1 {
 #rides {
     animation-name: fade5;
     animation-duration: 1.5s;
-    animation-delay: 2.82s;
+    animation-delay: 2.8s;
     opacity: 0;
     animation-fill-mode: forwards;
     font-family: Lora, sans-serif;
 }
 
 @keyframes fade1 {
-    from {
-        opacity: 0;
-    }
     to {
         opacity: 1;
     }
 }
 
 @keyframes fade2 {
-    from {
-        opacity: 0;
-    }
     to {
         opacity: 1;
     }
 }
 
 @keyframes fade3 {
-    from {
-        opacity: 0;
-    }
     to {
         opacity: 1;
     }
 }
 
 @keyframes fade4 {
-    from {
-        opacity: 0;
-    }
     to {
         opacity: 1;
     }
 }
 
 @keyframes fade5 {
-    from {
-        opacity: 0;
-    }
     to {
         opacity: 1;
     }
@@ -250,11 +228,7 @@ h1 {
 /*Learn More backgrounds*/
 
 .panel-body {
-    background-size: cover;
-    background-color: rgba(0, 0, 0, .7);
-    background-blend-mode: multiply;
     background-repeat: no-repeat;
-    background-position: center;
     font-family: 'Slabo 27px', serif;
     font-size: 20px;
 }
@@ -266,7 +240,7 @@ h1 {
 #weather {
     background: url("http://static1.squarespace.com/static/51f2e70ce4b02c290dc93af1/t/537c0310e4b071e473985a56/1400636178090/81-explore-the-area-climate-and-weather.jpg?format=1500w") center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .5);
     background-blend-mode: multiply;
 }
 
@@ -280,14 +254,14 @@ h1 {
 #time {
     background: url("https://cdn1.vox-cdn.com/thumbor/vY3JgaUmHgzxGZLppYT_vryHz1Y=/0x0:4500x3000/1280x853/cdn0.vox-cdn.com/uploads/chorus_image/image/47547403/shutterstock_152293880.0.0.0.0.jpg") center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .6);
     background-blend-mode: multiply;
 }
 
 #flight {
     background: url("http://www.govisitcostarica.com/images/photos/full-hot-air-balloons-near-arenal.jpg") center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .4);
     background-blend-mode: multiply;
 }
 
@@ -303,55 +277,31 @@ h1 {
     font-family: Lora, sans-serif;
     font-size: 25px;
     font-weight: bold;
-   
 }
 
 #oh {
-     text-shadow: 2px 2px 10px #ffffff;
-     color: #ff0000;
+    text-shadow: 2px 2px 10px #ffffff;
+    color: #ff0000;
 }
 
 #come {
-     text-shadow: 2px 2px 8px #333333;
-     color: #6ae2b3;
+    text-shadow: 2px 2px 8px #333333;
+    color: #6ae2b3;
 }
 
 #your {
-     text-shadow: 2px 2px 8px #333333;
-     color: #fe4902;
+    text-shadow: 2px 2px 8px #333333;
+    color: #fe4902;
 }
 
 #view {
-     text-shadow: 2px 2px 8px #333333;
-     color: #ece8d5;
+    text-shadow: 2px 2px 8px #333333;
+    color: #ece8d5;
 }
 
 #once {
-     text-shadow: 2px 2px 8px #333333;
-     color: #ffff00;
-}
-
-
-
-/*form button positioning*/
-
-.btn {
-    position: relative;
-    left: 45%;
-}
-
-
-/*form text positioning*/
-
-.jumbotron {
-    text-align: center;
-}
-
-
-    color: #800000;
-    font-size: 25px;
-    font-weight: bold;
-    text-shadow: 2px 2px 8px #FFFFFF;
+    text-shadow: 2px 2px 8px #333333;
+    color: #ffff00;
 }
 
 
@@ -369,6 +319,20 @@ h1 {
     text-align: center;
 }
 
+
+/*form button positioning*/
+
+.btn {
+    position: relative;
+    left: 45%;
+}
+
+
+/*form text positioning*/
+
+.jumbotron {
+    text-align: center;
+}
 
 #address {
     top: 40px;
@@ -380,7 +344,12 @@ h1 {
     #address {
         top: 0;
     }
+}
 
+@media only screen and (max-width: 400px) {
+    #contact {
+        font-size: 90px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -390,15 +359,25 @@ h1 {
 }
 
 
+/*wind animation*/
 
-
-@media only screen and (max-width: 400px) {
-    #contact {
-        font-size: 90px;
-    }
+#wind {
+    color: #3399ff;
+    font-family: Open Sans Condensed, sans-serif;
+    font-size: 25px;
+    animation-name: windAnimation;
+    animation-duration: 1.5s;
+    animation-delay: 3.3s;
+    animation-timing-function: ease-in;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    position: relative;
+    left: 0;
 }
 
-#wind{
-    color:#33659a;
-    
+@keyframes windAnimation {
+    to {
+        opacity: 1;
+        left: 25%;
+    }
 }
